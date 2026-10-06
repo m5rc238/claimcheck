@@ -546,7 +546,7 @@ def summary(file, rec)
   "#{ids.join(',')} -> #{rec.dig('overall_result', 'result')}"
 end
 
-puts "epistemic-redteam :: consistency check"
+puts "claimcheck :: consistency check"
 puts "files scanned : #{files.length}"
 puts "records found : #{records.length}"
 puts

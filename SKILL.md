@@ -1,11 +1,11 @@
 ---
-name: epistemic-redteam
+name: claimcheck
 description: "Audit a claim and any AI-generated critique of it against evidence, producing a structured, auditable record instead of a list of objections. Use when asked to red-team, critique, challenge, stress-test, sanity-check, verify, poke holes in, or find weaknesses in a claim, analysis, conclusion, model output, research finding, product decision, or argument - and whenever someone asks whether something is actually true, supported, overstated, or safe to act on. Also use when a critique itself needs auditing, when a previous critique is being treated as authoritative, or when a claim may be defended, narrowed, or investigated rather than merely attacked. Triggers on red team, red-team, critique, criticize, challenge this, what is wrong with, poke holes, stress test, fact check, verify this claim, is this sound, adversarial review, devil's advocate, claim audit, epistemic audit."
 license: MIT
 version: 1.0.0
 ---
 
-# Epistemic Red-Team
+# claimcheck
 
 An evidence-calibration protocol for auditing claims and critiques. Use it
 whenever a claim needs challenging, and whenever a critique needs auditing.

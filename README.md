@@ -1,4 +1,4 @@
-# epistemic-redteam
+# claimcheck
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 [![version](https://img.shields.io/badge/version-1.0.0-blue.svg)](./SKILL.md)
@@ -253,10 +253,10 @@ Copy `PROMPT.md` into any LLM — that is the whole install. No tooling required
 For OpenCode:
 
 ```bash
-git clone https://github.com/m5rc238/claimcheck.git ~/.config/opencode/skills/epistemic-redteam
+git clone https://github.com/m5rc238/claimcheck.git ~/.config/opencode/skills/claimcheck
 ```
 
-Then the skill is discoverable as `epistemic-redteam`. See
+Then the skill is discoverable as `claimcheck`. See
 [`adapters/opencode.md`](adapters/opencode.md).
 
 ## Layout

@@ -120,7 +120,7 @@ MUTATIONS = [
 recs = load_records
 abort "no records found" if recs.empty?
 
-tmp = File.join(Dir.tmpdir, "epistemic-redteam-mutation.md")
+tmp = File.join(Dir.tmpdir, "claimcheck-mutation.md")
 results = []
 
 # Find the first record a mutation actually applies to, rather than assuming
@@ -187,7 +187,7 @@ end
 
 File.delete(tmp) if File.exist?(tmp)
 
-puts "epistemic-redteam :: mutation test"
+puts "claimcheck :: mutation test"
 puts "records available: #{recs.length}"
 puts
 results.each do |name, rule, ok, detail, file|
