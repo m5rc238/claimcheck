@@ -12,7 +12,7 @@ Skills live in `~/.config/opencode/skills/<name>/`. The directory needs a
 
 ```bash
 # clone straight into the skills directory
-git clone <this-repo> ~/.config/opencode/skills/epistemic-redteam
+git clone https://github.com/m5rc238/claimcheck.git ~/.config/opencode/skills/epistemic-redteam
 
 # or symlink a working copy, so edits take effect immediately
 ln -s /path/to/claimcheck ~/.config/opencode/skills/epistemic-redteam

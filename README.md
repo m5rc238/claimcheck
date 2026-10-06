@@ -253,7 +253,7 @@ Copy `PROMPT.md` into any LLM — that is the whole install. No tooling required
 For OpenCode:
 
 ```bash
-git clone <this-repo> ~/.config/opencode/skills/epistemic-redteam
+git clone https://github.com/m5rc238/claimcheck.git ~/.config/opencode/skills/epistemic-redteam
 ```
 
 Then the skill is discoverable as `epistemic-redteam`. See
